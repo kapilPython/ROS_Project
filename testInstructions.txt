@@ -1,0 +1,5 @@
+1) Configure Git on Ubuntu
+2) Ask for access to Repository
+3) make a local repository
+4) make your changes
+5) commit your changes to main repository with proper reasons
