@@ -15,6 +15,7 @@ int main(int argc,char** argv){
     */
     GoalDatabase gdb;
     //variable to check if parsing goes wrong
+    // change the path as per your yaml file
     bool checkParse = gdb.createDatabase("/home/kapil/neo_kapil_ws/src/my_pkg/data/goalData.yaml");
     while(!checkParse){ 
         ROS_INFO("Kill the node since the data is not correct");
