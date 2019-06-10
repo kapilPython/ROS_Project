@@ -3,7 +3,7 @@
 The multi-goal driver has been tried with mpo_700 neo_simulation
 
 git clone the package using 
-https://github.com/kapilPython/ROS_Project.git
+git clone https://github.com/kapilPython/ROS_Project.git
 
 For making the robot move as per your yaml coordinates run
 
