@@ -12,4 +12,6 @@ rosrun my_pkg test_node
 For making the points visible on rviz just run 
 
 rosrun my_pkg waypoint_publisher
+
+
 After running this in Rviz add the topic /waypoint PoseArray.
