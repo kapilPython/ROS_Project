@@ -14,9 +14,14 @@ int main(int argc,char** argv){
         Object Of GoalDatabase class
     */
     GoalDatabase gdb;
-    //variable to check if parsing goes wrong
-    // change the path as per your yaml file
-    bool checkParse = gdb.createDatabase("/home/kapil/neo_kapil_ws/src/my_pkg/data/goalData.yaml");
+    std::string path;
+    std::cout<<"Please enter the path to your yaml file"<<std::endl;
+    std::cout<<">";
+    std::cin>>path;
+    // please change the path as per your YAML file
+    // example path
+    //bool checkParse = gdb.createDatabase("/home/kapil/neo_kapil_ws/src/my_pkg/data/goalData.yaml");
+    bool checkParse = gdb.createDatabase(path);
     while(!checkParse){ 
         ROS_INFO("Kill the node since the data is not correct");
     }
